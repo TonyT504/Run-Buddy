@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# Run Buddy Inc.
-
-=======
 # Run Buddy, Inc
 
 ## Purpose
@@ -19,4 +15,3 @@ Made with ❤️ by [your name]
 
 ### ©️2019 Run Buddy, Inc 
 
->>>>>>> 998ed06e35f6137f9f8f4a22481726937b281c89

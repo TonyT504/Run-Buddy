@@ -99,6 +99,25 @@ section{
     bottom: 120px;
     right: 140px;
 }
+/* Adding/updating hero section*/
+
+.hero-habits{
+    
+    
+    padding: 20px;
+    width: 500px;
+    color: white;
+    position: absolute;
+    bottom: 120px;
+    left: 350px;
+    text-align: right;
+}
+
+.hero-habits h2{
+    color: #fce138;
+    font-size: 48px;
+    font-style: italic;
+}
 
 .hero-form h3{
     font-size: 24px;
