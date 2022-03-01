@@ -64,17 +64,19 @@ footer {
     background: #fce138;
     width: 100%;
     padding: 40px 35px;
+    justify-content: space-between;
+    flex-wrap: wrap; 
 }
 
 footer h2{
-    display: inline;
+   
     color: #024e76;
     font-size: 30px;
     margin: 0;
 }
 
 footer div{
-    float: right;
+    
     line-height: 1.5;
     text-align: right;
 }
@@ -91,39 +93,42 @@ section{
 /* Hero Style Start */
 .hero {
     background-image: url("../images/hero-bg.jpg");
-    height: 600px;
     background-size: cover;
     background-position: center;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
 }
 
 .hero-form{
     border: 3px solid #024e76;
     background-color: #fce138;
     padding: 20px;
-    width: 500px;
     color: #024e76;
-    position: absolute;
-    bottom: 120px;
-    right: 140px;
+    width: 40%;
+    margin: 3.5%;
+
+   
+    
 }
 /* Adding/updating hero section*/
 
-.hero-habits{
+.hero-cta{
     
-    
-    padding: 20px;
-    width: 500px;
-    color: white;
-    position: absolute;
-    bottom: 120px;
-    left: 350px;
+    width: 35%;
     text-align: right;
+    color:#fff;
+    margin: 3.5%;
+    font-size: 18px;
+    line-height: 1.3;
+
+     
 }
 
-.hero-habits h2{
+.hero-cta h2{
     color: #fce138;
-    font-size: 48px;
+    font-size: 55px;
     font-style: italic;
 }
 
@@ -162,9 +167,6 @@ section{
 
 /* What we do */
 
-.intro{
-    text-align: center;
-}
 
 
 .intro p {
@@ -173,6 +175,7 @@ section{
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
+    text-align: center;
 }
 
 /* what you do */
@@ -180,14 +183,11 @@ section{
 .section-title{
     font-size: 55px;
     color:#024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
     border-bottom: #39a6b2;
 }
 
 .steps{
-    text-align: center;
+    
     background: #fce138;
 }
 
@@ -227,6 +227,10 @@ section{
     border-bottom: 3px solid;
     margin-bottom: 35px;
     color: #024e76;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
 }
 
 .primary-border{
@@ -237,7 +241,7 @@ section{
     border-color: #39a6b2;
 }
 .trainers{
-    text-align: center;
+    
     
 }
 
@@ -292,7 +296,7 @@ section{
 
 
 .contact{
-    text-align: center;
+    
     background: #024e76;
 }
 
@@ -339,3 +343,6 @@ section{
 
 /* REACH OUT STYLES END*/
 
+.flex-row{
+    display: flex;
+}
