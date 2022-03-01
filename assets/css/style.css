@@ -164,10 +164,29 @@ section{
     font-size: 16px;
 }
 /* Hero Style End */
+/* section title start*/
+
+.section-title{
+    font-size: 55px;
+    border-bottom: 3px solid;
+    color: #024e76;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+}
+
+
+
+.primary-border{
+    border-color: #fce138;
+}
+
+.secondary-border{
+    border-color: #39a6b2;
+}
 
 /* What we do */
-
-
 
 .intro p {
     line-height: 1.7;
@@ -178,49 +197,14 @@ section{
     text-align: center;
 }
 
+
+
 /* what you do */
 
-.flex-row{
-    font-size: 55px;
-    color:#024e76;
-    border-bottom: #39a6b2;
-}
-
-.step{
+.steps{
     
     background: #fce138;
 }
-
-.step-text{
-    flex: 12;
-}
-
-.step-img{
-    max-width: 100%;
-}
-
-.step h3{
-    color: #024e76;
-    font-size: 46px;
-    flex: 1 30%;
-
-    
-}
-.step-info{
-    flex: 2 70%;
-}
-
-.step-text p{
-    color: #39a6b2;
-    font-size: 18px;
-}
-
-.step-text h4{
-    font-size: 26px;
-    line-height: 1.5;
-    color: #024e76;
-}
-
 .step{
     margin: 50px auto;
     padding-bottom: 50px;
@@ -232,34 +216,43 @@ section{
     justify-content: space-between;
 }
 
+.step h3{
+    color: #024e76;
+    font-size: 46px;
+    flex: 1 30%;
+
+    
+}
+.step-info{
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
 .step-img{
     flex: 1 12%;
     margin-right: 20px;
 }
+.step-img img{
+    max-width: 100%;
+}
+.step-text{
+    flex: 12;
+}
+.step-text p{
+    color: #39a6b2;
+    font-size: 18px;
+}
+.step-text h4{
+    font-size: 26px;
+    line-height: 1.5;
+    color: #024e76;
+}
+
+
 
 
 /* Meet the trainers*/
-
-.section-title{
-    font-size: 55px;
-   
-    padding: 0 100px 20px 100px;
-    border-bottom: 3px solid;
-    margin-bottom: 35px;
-    color: #024e76;
-    padding-bottom: 20px;
-    text-align: center;
-    margin: 0 auto 35px auto;
-    width: 50%;
-}
-
-.primary-border{
-    border-color: #fce138;
-}
-
-.secondary-border{
-    border-color: #39a6b2;
-}
 .trainers{
     width: 100%;
     margin: 0 auto;
@@ -329,16 +322,6 @@ section{
     
 }
 
-.contact-info iframe{
-   
-    height: 400px;
-}
-
-.contact-info div{
-
-    color: white;
-}
-
 .contact-info{
     display: flex;
     justify-content: space-between;
@@ -349,6 +332,17 @@ section{
     flex: 1;
     margin: 15px;
 }
+
+.contact-info iframe{
+   
+    height: 400px;
+}
+
+.contact-info div{
+
+    color: white;
+}
+
 
 .contact-info h3{
     color: #fce138;
@@ -364,9 +358,6 @@ section{
 
 }
 
-.contact-info a{
-    color: #fce138;
-}
 
 .contact-form input, .contact-form textarea{
     border: 1px solid #024e76;
@@ -388,8 +379,19 @@ section{
     padding: 15px 0;
     font-size: 16px;
 }
+
+.contact-info a{
+    color: #fce138;
+}
+
 /* REACH OUT STYLES END*/
 
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
 .flex-row{
     display: flex;
 }
